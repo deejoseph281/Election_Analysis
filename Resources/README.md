@@ -64,7 +64,7 @@ First, we needed to import our data and add the variable to load the file from t
 The challenge required automating the process of counting votes and the ability to reuse the code for updated election results. 
 
 
-###Proposal To Continue Utilizing Script for Future Elections
+### Proposal To Continue Utilizing Script for Future Elections
 The script can be used for future elections with some modifications to allow for flexibility within the script. 
 The script has advantages in being able to verify the votes by county and by candidate as well as largest voting county and winner of the election. 
 We recommend modifications to allow for the script to include critical election results and data including but not limited to, candidate party name and percentage of votes to each party, voter demographic such as male/female and age, county results by candidate and party. 
