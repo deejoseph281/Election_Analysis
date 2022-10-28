@@ -35,16 +35,37 @@ The analysis of the election show that:
     * Diana Degette received 73.8% of the vote and 272,892 votes.
     * Raymon Anthony Doane received 3.1% of the vote and 11,606 votes. 
 ![image](https://user-images.githubusercontent.com/115019829/198423829-48cafbb6-c99f-4dc6-af93-97f4f8475864.png)
-* The candidate who won was:
+* The candidate who won was Diana DeGette by a landslide of 73.8% of the votes.
 * ![image](https://user-images.githubusercontent.com/115019829/198425582-af2d2f8f-6b33-4a56-bb80-8b6cae64a389.png)
 
 
 ## Challenge Overview
 
 The challenge requires an analysis of the votes cast for each candidate in the local election. We need to understand the output for unique candidate names, iterations of the votes counted for each candidate, and the calculation to provide the percentage of total votes for each candidate.
+![image](https://user-images.githubusercontent.com/115019829/198465659-1ff349d7-298c-4253-b720-d365b6292a38.png)
 
-The analysis
+Then, we needed to establish the variable and types within an array or dictionary. 
+![image](https://user-images.githubusercontent.com/115019829/198466702-df6a53ee-b5c0-4a1c-8cf9-13e57306a363.png)
 
+Once the candidate name and county name was established within a list, each vote for the candidate was tallied. 
+![image](https://user-images.githubusercontent.com/115019829/198467572-7427b9df-0422-475a-8cad-bd99c53bf3bc.png)
+
+We then needed to write a for loop to get the county from the county dictionary. The county votes, county name, and county percentages were printed to provide us with the winning county, the number of votes per county, and the county with the largest voter turnout.
+![image](https://user-images.githubusercontent.com/115019829/198468276-8b953ab6-e808-45bb-9cfb-e42af1b50329.png)
+
+Finally, we needed to ensure the outputs were in a readable and succinct format that clearly stated the winner's name, the number of votes in number format, and winning percentage in % format.
 
 ## Challenge Summary
 The challenge requires the use of open() statements, saving files to github through gitbash, dictionary creation, document creation via Python, and variables to be used during if() functions and mathematical equations.
+
+First, we needed to import our data and add the variable to load the file from the path. 
+
+
+The challenge required automating the process of counting votes and the ability to reuse the code for updated election results. 
+
+
+###Proposal To Continue Utilizing Script for Future Elections
+The script can be used for future elections with some modifications to allow for flexibility within the script. 
+The script has advantages in being able to verify the votes by county and by candidate as well as largest voting county and winner of the election. 
+We recommend modifications to allow for the script to include critical election results and data including but not limited to, candidate party name and percentage of votes to each party, voter demographic such as male/female and age, county results by candidate and party. 
+The script also allows the robust capability of providing interim results based on number of votes cast during early-voting and during the voting day. The election committee can update the data sets as frequently as required to get real-time output of the election results. 
